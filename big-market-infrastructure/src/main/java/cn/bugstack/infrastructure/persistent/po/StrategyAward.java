@@ -1,5 +1,7 @@
 package cn.bugstack.infrastructure.persistent.po;
 
+import lombok.Data;
+
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -9,6 +11,7 @@ import java.util.Date;
  * @Date: 2024/12/16 15:12
  */
 
+@Data
 public class StrategyAward {
 
     private Long id;
