@@ -1,4 +1,4 @@
-package cn.bugstack.domain.strategy.model;
+package cn.bugstack.domain.strategy.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

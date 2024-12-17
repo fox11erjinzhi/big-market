@@ -1,4 +1,4 @@
-package cn.bugstack.domain.strategy.model;
+package cn.bugstack.domain.strategy.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -7,20 +7,18 @@ import lombok.NoArgsConstructor;
 
 /**
  * @author Fuzhengwei bugstack.cn @小傅哥
- * @description 策略条件实体
- * @create 2023-12-23 09:10
+ * @description 策略结果实体
+ * @create 2023-12-23 09:13
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class StrategyConditionEntity {
-
-
+public class AwardEntity {
 
     /** 用户ID */
     private String userId;
-    /** 策略ID */
-    private Integer strategyId;
+    /** 奖品ID */
+    private Integer awardId;
 
 }
